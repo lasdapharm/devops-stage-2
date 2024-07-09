@@ -31,7 +31,7 @@ To get started with the MANUAL IMPLEMENTATION of this template, please follow th
 # Backend environment variables
 
 ```
-DOMAIN=babbexx22.chickenkiller.com
+DOMAIN=honeymama.online
 POSTGRES_USER=app
 POSTGRES_PASSWORD=changethis123
 POSTGRES_SERVER=db
@@ -40,13 +40,13 @@ POSTGRES_DB=app
 ```
 ## Frontend environment variable 
 
-` VITE_API_URL=https://babbexx22.chickenkiller.com `
+` VITE_API_URL=https://honeymama.online`
 
 ## Root folder environment variable (.env):
 
 ```
-DOMAIN=babbexx22.chickenkiller.com
-TRAEFIK_ACME_EMAIL=meempharm22@gmail.com
+DOMAIN=honeymama.online
+TRAEFIK_ACME_EMAIL=lasdapharm@gmail.com
 
 ```
 ## Setup Instructions
@@ -75,13 +75,13 @@ Use Docker Compose to build and start the containers defined in the docker-compo
 ## Access the Application
 Once the containers are running, you can access the application at the following URLs:
 
-- Frontend: [https://babbexx22.chickenkiller.com](https://babbexx22.chickenkiller.com)
+- Frontend: [https://honeymama.online](https://honeymama.online)
   
-- Backend: [https://babbexx22.chickenkiller.com/docs](https://babbexx22.chickenkiller.com/docs) , [https://babbexx22.chickenkiller.com/redoc](https://babbexx22.chickenkiller.com/redoc) , [https://babbexx22.chickenkiller.com/api](https://babbexx22.chickenkiller.com/api)
+- Backend: [https://honeymama.online/docs](https://honeymama.online/docs) , [https://honeymama.online/redoc](https://honeymama.online/redoc) , [https://honeymama.online/api](https://honeymama.online/api)
   
-- Adminer: [https://db.babbexx22.chickenkiller.com](https://db.babbexx22.chickenkiller.com)
+- Adminer: [https://db.honeymama.online](https://honeymama.online)
   
-- Traefik: [https://proxy.babbexx22.chickenkiller.com](https://proxy.babbexx22.chickenkiller.com)
+- Traefik: [https://proxy.honeymama.online](https://honeymama.online)
 
 ## Requirements Fulfilled
 
@@ -91,8 +91,8 @@ Once the containers are running, you can access the application at the following
 
 - Database Configuration: The application is configured to use a PostgreSQL database,properly set up and connected.
 
-- Adminer Setup: Adminer is configured to run on port 8080. Adminer is accessible via the subdomain db.babbexx22.chickenkiller.com and is properly connected to the PostgreSQL database.
+- Adminer Setup: Adminer is configured to run on port 8080. Adminer is accessible via the subdomain db.honeymama.online and is properly connected to the PostgreSQL database.
 
-- Proxy Manager Setup: Traefik (serving as the proxy manager) is configured to run on port 8090. Traefik's dashboard is also accessible via the subdomain `proxy.babbexx22.chickenkiller.com`.
+- Proxy Manager Setup: Traefik (serving as the proxy manager) is configured to run on port 8090. Traefik's dashboard is also accessible via the subdomain `proxy.honeymama.online`.
 
 - Cloud Deployment: The Dockerized application is deployed to an AWS EC2 instance. A domain (or free subdomain from Afraid DNS) is set up for the application, HTTP is configured to redirect to HTTPS and www is configured to redirect to non-www.
