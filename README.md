@@ -26,7 +26,7 @@ To get started with the MANUAL IMPLEMENTATION of this template, please follow th
   
 ## Environment Variables
 
-- Create a .env file in the backend directory with the following content:
+- Edit the env files to reflect your chosen variables: These are; `.env` (in the root directory), `backend/.env` and `frontend/.`
 
 # Backend environment variables
 
@@ -38,8 +38,17 @@ POSTGRES_SERVER=db
 POSTGRES_PORT=5432
 POSTGRES_DB=app
 ```
-- In the frontend directory, the .env file is to contain: ` VITE_API_URL=http://babbexx22.chickenkiller.com:8000 `
+## Frontend environment variable 
 
+` VITE_API_URL=https://babbexx22.chickenkiller.com `
+
+## Root folder environment variable (.env):
+
+```
+DOMAIN=babbexx22.chickenkiller.com
+TRAEFIK_ACME_EMAIL=meempharm22@gmail.com
+
+```
 ## Setup Instructions
 
 ## Using Docker
